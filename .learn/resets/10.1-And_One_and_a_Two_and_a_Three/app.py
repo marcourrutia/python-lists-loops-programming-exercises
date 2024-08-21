@@ -5,5 +5,4 @@ contact = {
 }
 
 # Your code here
-for i in contact:
-    print(f"{i}: {contact[i]}")
+
