@@ -9,6 +9,6 @@ tasks = [
 	{ "label": 'Make a trip', "done": False }
 ]
 
+
 # Your code here
-task_done = list(filter(lambda x: x["done"], tasks))
-print (task_done)
+

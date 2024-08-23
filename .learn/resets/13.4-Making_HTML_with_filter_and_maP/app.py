@@ -9,11 +9,4 @@ all_colors = [
 ]
 
 # Your code here
-def generate_li(color):
-    return f'<li>{color["label"]}</li>'
 
-def filter_colors(colors):
-    return colors["sexy"]
-
-filtered_color = list(map(generate_li,filter(filter_colors, all_colors)))
-print(filtered_color)
